@@ -1,0 +1,202 @@
+
+/*kursus kahwin*/
+.tab {
+    overflow: hidden;
+    background-color: #f1f1f1;
+}
+
+.tab button {
+    background-color: inherit;
+    float: left;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 14px 16px;
+    transition: 0.3s;
+    font-size: 17px;
+    width: 33.33%;
+}
+
+.tab button:hover {
+    background-color: #ddd;
+}
+
+.tab button.active {
+    background-color: #318DFF;
+}
+
+.tabcontent {
+    padding: 10px;
+    border: 1px solid #ccc;
+    margin-top: 20px;
+    border-radius: 10px;
+    padding-bottom: 50px;
+    margin-bottom: 20px;
+}
+
+#defaultOpen {
+    margin-top: 10px;
+    background-color: #fff;
+    width: 100%;
+    text-align: center;
+}
+
+#defaultOpen>p {
+    text-align: left;
+    padding: 5px;
+    padding-left: 50px;
+}
+
+table {
+    border-collapse: collapse;
+    box-shadow: 1px 4px #E5E4E2;
+    width: 80%;
+    margin-left: 130px;
+}
+
+td,
+th {
+    border: 1px solid #ffff;
+    border-style: outset;
+    text-align: left;
+    padding: 8px;
+}
+
+th {
+    background-color: #F5F5F5;
+    text-align: center;
+}
+
+#defaultOpen>img {
+    max-height: 100px;
+    width: auto;
+    margin-bottom: 10px;
+}
+
+.btn-kursus {
+    margin-top: 20px;
+    margin-right: 90px;
+}
+input[type=text] {
+    width: 50%;
+
+}
+.check {
+    display: block;
+    margin: 0;
+    padding: 0;
+    width: 0;
+    height: 0;
+    visibility: hidden;
+    opacity: 0;
+    pointer-events: none;
+    position: absolute;
+}
+.checktoggle {
+    background-color: #fff;
+    border: 1px solid rgba(0, 0, 0, .25);
+    border-radius: 12px;
+    cursor: pointer;
+    display: block;
+    font-size: 0;
+    height: 24px;
+    margin-bottom: 0;
+    position: relative;
+    width: 48px;
+}
+
+.checktoggle:after {
+    content: ' ';
+    display: block;
+    position: absolute;
+    top: 50%;
+    left: 0;
+    transform: translate(5px, -50%);
+    width: 16px;
+    height: 16px;
+    background-color: rgba(0, 0, 0, .25);
+    border-radius: 50%;
+    transition: left 300ms ease, transform 300ms ease;
+}
+input[type=date] {
+    width: 50%;
+}
+
+input[type=submit] {
+    background-color: #318DFF;
+    color: white;
+    padding: 8px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    float: right;
+    font-size: small;
+    width: 12%;
+    margin-left: 5px;
+    margin-bottom: 5px;
+
+}
+
+input[type=reset] {
+    background-color: #318DFF;
+    color: white;
+    padding: 8px 8px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    float: right;
+    font-size: small;
+    width: 12%;
+    margin-left: 5px;
+}
+
+input[type=kembali] {
+    background-color: #318DFF;
+    color: white;
+    padding: 8px 8px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    float: left;
+    font-size: small;
+    width: 12%;
+    text-align: center;
+}
+
+.print-list>ul {
+    padding: 30px;
+    list-style: disc;
+}
+.column {
+    float: left;
+    width: 70%;
+    height: auto;
+    margin-bottom: 20px;
+}
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+.lbl-spacing{
+    margin-right: 30px;
+    margin-bottom: 20px;
+}
+/* Marriage Registration */
+.align-left {
+    margin-left: 0;
+}
+
+.left {
+    width: 20%;
+    float: left;
+    font-weight: bold;
+}
+
+.right {
+    margin-left: 20%;
+}
+
+.container a {
+    margin-top: 10%;
+}
